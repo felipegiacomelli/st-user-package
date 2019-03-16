@@ -7,7 +7,8 @@ $HOME/.config/sublime-text-3/Packages/User/
 
 ## Instructions
 
-- remove the User folder of the fresh install
+- uninstall Package Control
+- remove $HOME/.config/sublime-text-3/Packages/User
 - clone st-user-package in $HOME/.config/sublime-text-3/Packages/
 - rename "st-user-package" to "User"
 - install Package Control
