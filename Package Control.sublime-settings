@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"CMake",
+		"EditorConfig",
+		"gmsh-Tools",
+		"LaTeXTools",
+		"LiveReload",
+		"MarkdownPreview",
+		"Material Theme",
+		"Package Control",
+		"PackageResourceViewer",
+		"SingleTrailingNewLine",
+		"SublimeGDB",
+		"TrailingSpaces"
+	]
+}
