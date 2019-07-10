@@ -6,9 +6,11 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"AlignTab",
 		"CMake",
 		"EditorConfig",
 		"gmsh-Tools",
+		"LanguageTool",
 		"LaTeXTools",
 		"LiveReload",
 		"MarkdownPreview",

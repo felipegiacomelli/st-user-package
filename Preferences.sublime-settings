@@ -12,7 +12,7 @@
 	"detect_indentation": false,
 	"dictionary": "Packages/User/Language/pt_BR.dic",
 	"expand_tabs_on_save": true,
-	"font_size": 9,
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Vintage"
