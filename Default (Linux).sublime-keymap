@@ -1,12 +1,47 @@
 [
-    { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"github"} },
+    {
+        "keys": ["alt+m"],
+        "command": "markdown_preview",
+        "args": {"target": "browser", "parser":"github"}
+    },
+
     {
         "keys": ["{"],
         "command": "latex_fill_all",
         "args": { "completion_type": "ref", "insert_char": "{" },
         "context": [
             { "key": "selector", "operand": "text.tex.latex" },
-            { "key": "preceding_text", "operator": "regex_match", "operand": "\\\\(?:sec|fig|tab|eq)ref", "match_all": true },
+            { "key": "preceding_text", "operator": "regex_match", "operand": "\\\\figref", "match_all": true },
+        ],
+    },
+
+    {
+        "keys": ["{"],
+        "command": "latex_fill_all",
+        "args": { "completion_type": "ref", "insert_char": "{" },
+        "context": [
+            { "key": "selector", "operand": "text.tex.latex" },
+            { "key": "preceding_text", "operator": "regex_match", "operand": "\\\\tabref", "match_all": true },
+        ],
+    },
+
+    {
+        "keys": ["{"],
+        "command": "latex_fill_all",
+        "args": { "completion_type": "ref", "insert_char": "{" },
+        "context": [
+            { "key": "selector", "operand": "text.tex.latex" },
+            { "key": "preceding_text", "operator": "regex_match", "operand": "\\\\eqref", "match_all": true },
+        ],
+    },
+
+    {
+        "keys": ["{"],
+        "command": "latex_fill_all",
+        "args": { "completion_type": "ref", "insert_char": "{" },
+        "context": [
+            { "key": "selector", "operand": "text.tex.latex" },
+            { "key": "preceding_text", "operator": "regex_match", "operand": "\\\\secref", "match_all": true },
         ],
     },
 ]
