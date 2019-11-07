@@ -3,5 +3,15 @@
         "keys": ["alt+m"],
         "command": "markdown_preview",
         "args": {"target": "browser", "parser":"github"}
+    },
+
+    {
+        "keys": ["{"],
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "text.tex.latex" },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": "figref|tabref", "match_all": true },
+        ],
+        "command": "latex_fill_all",
+        "args": { "completion_type": "ref", "insert_char": "{" },
     }
 ]

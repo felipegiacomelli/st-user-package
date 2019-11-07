@@ -1,19 +1,16 @@
 {
-    "ignored_packages":
-    [
-        "Vintage"
-    ],
-    "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-    "theme": "Material-Theme.sublime-theme",
-    "material_theme_accent_scrollbars": true,
-    "material_theme_bright_scrollbars": true,
-
-    "detect_indentation": false,
-    "expand_tabs_on_save": true,
-    "tab_size": 4,
-    "translate_tabs_to_spaces": true,
-
-    "font_size": 10,
-
-    "update_check": false
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"detect_indentation": false,
+	"expand_tabs_on_save": true,
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"material_theme_accent_scrollbars": true,
+	"material_theme_bright_scrollbars": true,
+	"tab_size": 4,
+	"theme": "Material-Theme.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"update_check": false
 }
