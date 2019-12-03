@@ -376,7 +376,7 @@
     // NOTE: custom builders CANNOT have the same name as an existing
     // built-in build engine (including "default")
 
-    "builder": "traditional",
+    "builder": "basic",
 
     // OPTION: "builder_path"
     // If non-empty, specifies a path to a custom builder, relative to the
