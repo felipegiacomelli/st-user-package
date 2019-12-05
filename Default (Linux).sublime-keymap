@@ -13,5 +13,7 @@
         ],
         "command": "latex_fill_all",
         "args": { "completion_type": "ref", "insert_char": "{" },
-    }
+    },
+
+    { "keys": ["ctrl+shift+o"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 ]
