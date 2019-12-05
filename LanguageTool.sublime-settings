@@ -25,12 +25,18 @@
     "ignored-words": [
         "    ",
         "        ",
+        "            ",
+        "                ",
 
         "Biot",
         "Cryer",
         "Dirichlet",
+        "Dean",
         "Lamè",
+        "Mandel-Cryer",
+        "Mandel",
         "Neumann",
+        "Peaceman",
         "Terzaghi",
         "Voigt",
 
@@ -41,15 +47,19 @@
         "floatrow",
         "FIM",
         "FSS",
+        "GAMG",
+        "GMRES",
         "METIS",
         "PETSc",
 
         "geomechanical",
         "geomechanics",
+        "poroelastic",
         "poroelasticity",
         "poroplasticity",
         "preconditioner",
         "preconditioners",
-        "speedup"
+        "speedup",
+        "wellbore"
     ]
 }
