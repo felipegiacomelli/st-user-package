@@ -1,3 +1,4 @@
 {
-    "enable_autoreload": true
+    "enable_autoreload": true,
+    "github_oauth_token": "55c0d95e31edc2954254c09fa356399d7263725b"
 }

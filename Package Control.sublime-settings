@@ -7,6 +7,7 @@
 	[
 		"A File Icon",
 		"AlignTab",
+		"AutoWrap",
 		"CMake",
 		"EditorConfig",
 		"Emmet",
@@ -19,6 +20,8 @@
 		"PackageResourceViewer",
 		"SingleTrailingNewLine",
 		"SublimeGDB",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"WordCount",
+		"Wrap Plus"
 	]
 }

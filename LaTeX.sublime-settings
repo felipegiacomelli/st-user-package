@@ -1,4 +1,8 @@
 // These settings override both User and Default settings for the LaTeX syntax
 {
-    "spell_check": false
+    "spell_check": false,
+
+    "auto_wrap" : true,
+    "auto_wrap_width" : 100,
+    "auto_wrap_break_patterns" :  ["\\\\", "\\[", "\\(", "\\$", "\\{", " ", "\\n"]
 }
