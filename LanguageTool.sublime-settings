@@ -44,6 +44,7 @@
         "DivideEtImpera",
         "DDM",
         "EbFVM",
+        "EFVLib2018",
         "floatrow",
         "FIM",
         "FSS",
@@ -54,11 +55,14 @@
 
         "geomechanical",
         "geomechanics",
+        "PMTLib2018",
         "poroelastic",
         "poroelasticity",
         "poroplasticity",
         "preconditioner",
         "preconditioners",
+
+        "SINMEC",
         "speedup",
         "wellbore"
     ]
