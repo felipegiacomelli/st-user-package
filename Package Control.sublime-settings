@@ -1,27 +1,23 @@
 {
-	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
-		"A File Icon",
-		"AlignTab",
-		"AutoWrap",
-		"CMake",
-		"EditorConfig",
-		"Emmet",
-		"gmsh-Tools",
-		"LaTeXTools",
-		"LiveReload",
-		"MarkdownPreview",
-		"Material Theme",
-		"Package Control",
-		"PackageResourceViewer",
-		"SingleTrailingNewLine",
-		"SublimeGDB",
-		"TrailingSpaces",
-		"WordCount",
-		"Wrap Plus"
-	]
+    "bootstrapped": true,
+    "installed_packages":
+    [
+        "A File Icon",
+        "AlignTab",
+        "AutoWrap",
+        "CMake",
+        "Emmet",
+        "gmsh-Tools",
+        "LaTeXTools",
+        "LiveReload",
+        "MarkdownPreview",
+        "Material Theme",
+        "Package Control",
+        "PackageResourceViewer",
+        "SingleTrailingNewLine",
+        "SublimeGDB",
+        "TrailingSpaces",
+        "WordCount",
+        "Wrap Plus"
+    ]
 }
