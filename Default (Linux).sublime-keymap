@@ -15,5 +15,22 @@
         "args": { "completion_type": "ref", "insert_char": "{" },
     },
 
-    { "keys": ["ctrl+shift+o"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    {
+        "keys": ["ctrl+shift+o"],
+        "command": "show_panel",
+        "args": {"panel": "console", "toggle": true}
+    },
+
+    // Increment/Decrement Number
+    {
+        "keys": ["ctrl+up"],
+        "command": "emmet_increment_number",
+        "args": { "delta": 1 }
+    },
+
+    {
+        "keys": ["ctrl+down"],
+        "command": "emmet_increment_number",
+        "args": { "delta": -1 }
+    },
 ]
